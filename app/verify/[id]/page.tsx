@@ -27,12 +27,12 @@ export default function VerifyPage() {
 
                 if (error) { throw error };
 
-                if (data) {
-                    setTimeout(() => {
-                        setUser(data);
-                        setVerified(data[0].verified)
-                    }, 4000)
-                }
+                // if (data) {
+                //     setTimeout(() => {
+                //         setUser(data);
+                //         setVerified(data[0].verified)
+                //     }, 4000)
+                // }
         } catch (error) {
             console.log(error);
         }
