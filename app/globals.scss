@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --greyish: #686868;
+}
+
 
 
 input:-webkit-autofill,
@@ -26,9 +30,3 @@ input:-webkit-autofill:active{
   
 }
 
-
-.about-cont p {
-  color: #686868;
-  font-size: 0.8rem;
-  margin: 1.2rem 0;
-}
