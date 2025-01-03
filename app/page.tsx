@@ -55,7 +55,7 @@ export default function Home() {
                   </div>
                   
                     <Link href="/join" className='text-xs font-bold text-slate-400'>GET N/KED.</Link>
-                    <Link href="/products" className='text-xs font-bold text-slate-400'>OUR PRODUCTS</Link>
+                    <Link href="/products" className='text-xs font-bold text-slate-400'>OUR PRODUCTS.</Link>
                     <Link href="/learn" className='text-xs'>BRAND</Link>
                 </div>
               </div>
